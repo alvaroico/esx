@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/server.ts",
     "typeorm:create": "ts-node-dev node_modules/typeorm/cli.js migration:create --name",
-    "typeorm:run": "ts-node-dev node_modules/typeorm/cli.js migration:run"
+    "typeorm:run": "ts-node-dev node_modules/typeorm/cli.js migration:run",
+    "start": "ts-node src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "socket.io": "^4.0.1",
     "socket.io-client": "^4.0.1",
     "sqlite3": "^5.0.2",
+    "ts-node": "^10.8.1",
     "typeorm": "^0.2.32",
     "uuid": "^3.4.0"
   },
