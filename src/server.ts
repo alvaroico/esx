@@ -2,4 +2,6 @@ import { http } from "./http";
 import "./websocket/client";
 import "./websocket/admin";
 
-http.listen(3333, () => console.log("Servidor Rodando na porta 3333"));
+const porta = process.env.PORT || 3333
+
+http.listen(porta, () => console.log(`Servidor Rodando na porta ${porta}`));
