@@ -18,6 +18,12 @@ Para Executar o codigo como DEV, execute o comando
 npm run dev
 ```
 
+Para criar o banco limpo, execute o comando
+
+```
+npm run typeorm:run
+```
+
 Objetivo: Criar um sistema de chat simples para múltiplos 
 usuários. 
 
@@ -30,8 +36,10 @@ Requisitos funcionais:
 ![Tela Chat](/anexos/TelaLogin.png)
 - Seleção de sala/conversa 
   - Apenas Administrador
-  ![Tela Chat](/anexos/TelaAdmin.png)
+
+![Tela Chat](/anexos/TelaAdmin.png)
 - Tela da conversa 
+
 ![Tela Chat](/anexos/TelaConversa.png)
 
 Requisitos não funcionais 
@@ -55,6 +63,7 @@ Diferenciais:
 ![Tela Chat](/anexos/teste.gif)
 
 - Diagramas 
+
 ![Tela Chat](/anexos/DiagramaSQL.png)
 
 - Fluxograma 
