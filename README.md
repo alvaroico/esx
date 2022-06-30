@@ -47,7 +47,7 @@ Requisitos não funcionais
 
 ![Tela Chat](/anexos/DBRepo.png)
 - Chat em tempo real
-  - Sim em socket.io
+  - Sim, em socket.io
 - Utilizar Node.js ou Java (versão 8 ou maior) no back-end 
   - Node LTS
 - Preferencialmente React porém poderá ser usado framework de sua preferência para o front-end 
@@ -70,7 +70,7 @@ Diferenciais:
   - Baseado no fluxo do Banco
 - Histórico do chat em banco 
 - Chamar um usuário para sala privada 
-  - Sala privada baseado no usuário administrador criado ao entra na sala Admin
+  - Sala privada baseado no usuário administrador criado ao entrar na sala Admin
 - Modelo de Entidade Relacionamento 
   - Sim
 - Typescript 
